@@ -35,8 +35,8 @@ input:hover {
   font-weight: bold;
   cursor: pointer;
   background-color: #ffffff;
-  box-shadow: 0 0 30px #c700eb, inset 0 0 50px #c700eb;
-  text-shadow: 0 0 15px #c700eb;
+  box-shadow: 0 0 30px #ffffff, inset 0 0 50px #ffffff;
+  text-shadow: 0 0 15px #ffffff;
   color: #fff;
   transition: 0.3s ease-in-out;
   transition: all 0.5s ease-in-out;
@@ -84,20 +84,21 @@ p{
 }
 
 
-@media screen and (max-width: 900px) {
+@media (max-width: 900px) {
+
+  body {
+    margin: 0 auto
+  }
+
   input {
-    width: 90%;
+    width: 70%;
     height: 50px;
-    padding: 0;
+    padding: 10;
     margin-bottom: 20px;
   }
 
-  div {
-    margin-top: 40%;
-  }
-
   button {
-    width: 90%;
+    width: 60%;
     height: 50px;
     font-weight: bold;
     border: none;
@@ -108,7 +109,4 @@ p{
     color: #fff;
   }
 
-  p {
-    margin-top: 100px;
-  }
 }
